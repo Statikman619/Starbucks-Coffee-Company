@@ -1,1 +1,1 @@
-# Starbucks-Coffee-Company
+# Starbucks-Homepage-Clone
