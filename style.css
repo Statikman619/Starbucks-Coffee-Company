@@ -3,7 +3,7 @@
 :root {
   --color-primary: #006241;
   --color-secondary: #d50032;
-  --color-extra: #d439e2;
+  --color-extra: #d4e9e2;
 }
 
 * {
@@ -14,7 +14,7 @@
 
 html,
 body {
-  font-family: "open sans", "sans-serif";
+  font-family: "Open Sans", sans-serif;
   line-height: 1.4;
   color: #000;
 }
@@ -36,7 +36,7 @@ img {
   max-width: 100%;
 }
 
-/*Navbar*/
+/* Navbar */
 .navbar {
   width: 100%;
   height: auto;
@@ -64,13 +64,28 @@ img {
   font-weight: bold;
 }
 
+.navbar a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: var(--color-primary);
+}
+
 .navbar-brand img {
   width: 50px;
   height: 50px;
 }
 
+.navbar-nav-left {
+  text-transform: uppercase;
+  flex: 1;
+  margin-left: 20px;
+}
+
 .navbar-nav-right img {
-  width: 20px;
   height: 20px;
+  width: 20px;
   margin-right: 10px;
 }
