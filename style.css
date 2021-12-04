@@ -113,6 +113,19 @@ section a {
   margin: 0 auto;
 }
 
+/*Grid Styles*/
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, lfr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid-reversed:first-child {
+  order: 2;
+}
+
 /*Buttons*/
 .btn {
   cursor: pointer;
