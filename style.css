@@ -113,6 +113,22 @@ section a {
   margin: 0 auto;
 }
 
+.box-text {
+  max-width: 500px;
+  text-align: center;
+  justify-content: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.box-text .btn {
+  margin-top: 20px;
+}
+
+.box-f .box-text {
+  max-width: 600px;
+}
+
 /*Grid Styles*/
 .grid-col-2 {
   display: grid;
