@@ -1,5 +1,5 @@
 const btn = document.getElementById('menu-btn')
-cons nav = document.getElementById('menu')
+const nav = document.getElementById('menu')
 
 function navToggle() {
     btn.classList.toggle('open')
